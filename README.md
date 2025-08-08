@@ -1,9 +1,9 @@
 # BYOD (Build-Your-Own Distortion)
 
-[![Download Latest](https://img.shields.io/badge/download-latest-blue.svg)](https://github.com/Chowdhury-DSP/BYOD/releases/latest)
-![CI](https://github.com/Chowdhury-DSP/BYOD/workflows/CI/badge.svg)
+[![Download Latest](https://img.shields.io/badge/download-latest-blue.svg)](https://github.com/asulwer/BYOD/releases/latest)
+![CI](https://github.com/asulwer/BYOD/workflows/CI/badge.svg)
 [![License](https://img.shields.io/badge/License-GPL3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
-[![Downloads](https://img.shields.io/github/downloads/Chowdhury-DSP/BYOD/total)](https://somsubhra.github.io/github-release-stats/?username=Chowdhury-DSP&repository=BYOD&page=1&per_page=30)
+[![Downloads](https://img.shields.io/github/downloads/asulwer/BYOD/total)](https://somsubhra.github.io/github-release-stats/?username=asulwer&repository=BYOD&page=1&per_page=30)
 
 BYOD is a guitar effects plugin with a customisable
 signal chain that allows users to create their own guitar
@@ -14,10 +14,7 @@ tone-shaping filters, and a handful of other useful
 signal processors.
 
 ## Quick Links
-- [Latest Release](https://chowdsp.com/products.html#byod)
-- [BYOD for iOS](https://apps.apple.com/us/app/byod/id1595313287)
-- [Nightly Builds](https://chowdsp.com/nightly.html#byod)
-- [User Manual](https://github.com/Chowdhury-DSP/BYOD/blob/main/manual/Manual.md)
+- [User Manual](https://github.com/asulwer/BYOD/blob/main/manual/Manual.md)
 
 <img src="./manual/screenshots/full_gui.png" alt="Plugin GUI" height="400">
 
@@ -31,7 +28,7 @@ To build from scratch, you must have CMake installed.
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/Chowdhury-DSP/BYOD.git
+$ git clone https://github.com/asulwer/BYOD.git
 $ cd BYOD
 
 # initialize and set up submodules
