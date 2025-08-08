@@ -10,7 +10,7 @@
 #elif defined(__ARM_NEON__)
 #include <arm_neon.h>
 #else
-#warning "Compiling poly octave DSP without SIMD optimization"
+#pragma message ("Compiling poly octave DSP without SIMD optimization")
 #endif
 
 namespace poly_octave_v2
