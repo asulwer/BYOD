@@ -1,7 +1,6 @@
 # BYOD (Build-Your-Own Distortion)
 
 [![Download Latest](https://img.shields.io/badge/download-latest-blue.svg)](https://github.com/asulwer/BYOD/releases/latest)
-![CI](https://github.com/asulwer/BYOD/workflows/CI/badge.svg)
 [![License](https://img.shields.io/badge/License-GPL3-blue.svg)](https://opensource.org/licenses/GPL-3.0)
 [![Downloads](https://img.shields.io/github/downloads/asulwer/BYOD/total)](https://somsubhra.github.io/github-release-stats/?username=asulwer&repository=BYOD&page=1&per_page=30)
 
