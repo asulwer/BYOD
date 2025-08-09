@@ -60,13 +60,13 @@ public:
     }
 
 private:
-    EA::Variant<rnn_sse_arm::RNNAccelerated<numIns, hiddenSize, RecurrentLayerType, (int) RTNeural::SampleRateCorrectionMode::NoInterp>
+    
 #if JUCE_INTEL
-                ,
-                rnn_avx::RNNAccelerated<numIns, hiddenSize, RecurrentLayerType, (int) RTNeural::SampleRateCorrectionMode::NoInterp>
+    EA::Variant<rnn_sse_arm::RNNAccelerated<numIns, hiddenSize, RecurrentLayerType, (int) RTNeural::SampleRateCorrectionMode::NoInterp>, 
+        rnn_avx::RNNAccelerated<numIns, hiddenSize, RecurrentLayerType, (int) RTNeural::SampleRateCorrectionMode::NoInterp>> model_variant;
+#else
+    EA::Variant<rnn_sse_arm::RNNAccelerated<numIns, hiddenSize, RecurrentLayerType, (int) RTNeural::SampleRateCorrectionMode::NoInterp> model_variant;
 #endif
-                >
-        model_variant;
 
     using ResamplerType = chowdsp::ResamplingTypes::LanczosResampler<8192, 8>;
     chowdsp::ResampledProcess<ResamplerType> resampler;
