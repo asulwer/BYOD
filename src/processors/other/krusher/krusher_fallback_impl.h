@@ -4,6 +4,7 @@
 #include <cmath>
 #include <cstdint>
 #include <span>
+#include <limits>
 
 struct Krusher_Lofi_Resample_State
 {
