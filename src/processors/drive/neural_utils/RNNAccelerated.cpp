@@ -34,7 +34,7 @@ struct RNNMathsProvider
 #pragma GCC diagnostic pop
 #endif
 
-#if (__MMX__ || __SSE__ || __amd64__) && BYOD_COMPILING_WITH_AVX // INTEL + AVX
+#if (__MMX__ || __SSE__ || __amd64__ || _M_AMD64) && BYOD_COMPILING_WITH_AVX // INTEL + AVX
 namespace rnn_avx
 #else
 namespace rnn_sse_arm
